@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		32404B2C1D7F14E700E9795A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404B2B1D7F14E700E9795A /* AppDelegate.swift */; };
-		32404B2E1D7F14E700E9795A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404B2D1D7F14E700E9795A /* ViewController.swift */; };
+		32404B2E1D7F14E700E9795A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404B2D1D7F14E700E9795A /* FirstViewController.swift */; };
 		32404B311D7F14E700E9795A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32404B2F1D7F14E700E9795A /* Main.storyboard */; };
 		32404B331D7F14E700E9795A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32404B321D7F14E700E9795A /* Assets.xcassets */; };
 		32404B361D7F14E700E9795A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32404B341D7F14E700E9795A /* LaunchScreen.storyboard */; };
 		32404B411D7F14E700E9795A /* SeguePlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404B401D7F14E700E9795A /* SeguePlayTests.swift */; };
 		32404B4C1D7F14E700E9795A /* SeguePlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404B4B1D7F14E700E9795A /* SeguePlayUITests.swift */; };
+		32404B5A1D7F162800E9795A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404B591D7F162800E9795A /* SecondViewController.swift */; };
+		32404B5C1D7F1B1300E9795A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404B5B1D7F1B1300E9795A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		32404B281D7F14E700E9795A /* SeguePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeguePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32404B2B1D7F14E700E9795A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32404B2D1D7F14E700E9795A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32404B2D1D7F14E700E9795A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		32404B301D7F14E700E9795A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32404B321D7F14E700E9795A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32404B351D7F14E700E9795A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		32404B471D7F14E700E9795A /* SeguePlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeguePlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32404B4B1D7F14E700E9795A /* SeguePlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePlayUITests.swift; sourceTree = "<group>"; };
 		32404B4D1D7F14E700E9795A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32404B591D7F162800E9795A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		32404B5B1D7F1B1300E9795A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				32404B2B1D7F14E700E9795A /* AppDelegate.swift */,
-				32404B2D1D7F14E700E9795A /* ViewController.swift */,
+				32404B2D1D7F14E700E9795A /* FirstViewController.swift */,
 				32404B2F1D7F14E700E9795A /* Main.storyboard */,
+				32404B5B1D7F1B1300E9795A /* ThirdViewController.swift */,
 				32404B321D7F14E700E9795A /* Assets.xcassets */,
 				32404B341D7F14E700E9795A /* LaunchScreen.storyboard */,
 				32404B371D7F14E700E9795A /* Info.plist */,
+				32404B591D7F162800E9795A /* SecondViewController.swift */,
 			);
 			path = SeguePlay;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32404B2E1D7F14E700E9795A /* ViewController.swift in Sources */,
+				32404B5A1D7F162800E9795A /* SecondViewController.swift in Sources */,
+				32404B2E1D7F14E700E9795A /* FirstViewController.swift in Sources */,
+				32404B5C1D7F1B1300E9795A /* ThirdViewController.swift in Sources */,
 				32404B2C1D7F14E700E9795A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
